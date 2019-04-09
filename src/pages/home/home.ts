@@ -9,7 +9,7 @@ import 'rxjs/add/operator/map';
 })
 export class HomePage {
 
-  livrosUrl: string = 'http://nodejs-mongo-persistent-app-clube-livro.7e14.starter-us-west-2.openshiftapps.com/livros';
+  livrosUrl: string = 'https://appclubedolivro-app-clube-livro.7e14.starter-us-west-2.openshiftapps.com/livros';
 
   catalogoLivros: Array<any> = [];
 
